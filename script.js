@@ -1,6 +1,6 @@
 // JavaScript functions for image inspection
 document.addEventListener('DOMContentLoaded', function() {
-    var galleryImages = document.querySelectorAll('.gallery img');
+    var galleryImages = document.querySelectorAll('.cs-gallery img');
     var overlay = document.querySelector('.overlay');
     var overlayImage = document.getElementById('overlayImage');
 
@@ -16,4 +16,3 @@ document.addEventListener('DOMContentLoaded', function() {
         this.style.display = 'none';
     });
 });
-
