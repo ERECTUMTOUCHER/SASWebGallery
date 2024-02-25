@@ -40,24 +40,25 @@
         gap: clamp(1rem, 1.5vw, 1.25rem);
         position: relative;
     }
+ /* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
     #gallery-1446 .cs-image {
-        /* 260px - 360px */
-        min-height: clamp(16.25rem, 60vw, 20rem);
+        /* Adjusted height to maintain aspect ratio */
+        height: auto;
+        max-height: 20rem; /* Maximum height for each image */
         border-radius: 1rem;
-        /* clips the image corners */
         overflow: hidden;
-        display: block;
-        position: relative;
+        display: flex; /* Change to flex to center image vertically */
+        align-items: center; /* Center image vertically */
     }
     #gallery-1446 .cs-image img {
-        position: absolute;
-        top: 0;
-        left: 0;
+        /* Adjusted object-fit to maintain aspect ratio */
+        width: auto;
         height: 100%;
-        width: 100%;
-        /* makes it act like a background image */
-        object-fit: cover;
+        object-fit: contain; /* Maintain aspect ratio without stretching */
+        margin: 0 auto; /* Center the image horizontally */
     }
+}
 }
 /*-- -------------------------- -->
 <---        Recent Posts        -->
