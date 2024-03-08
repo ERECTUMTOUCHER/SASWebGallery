@@ -1,159 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
 <meta charset="UTF-8">
-<title>SasGallery</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="styles.css">  <!-- Link to your CSS file -->
-<link rel="stylesheet" href="global-styles.css"> <!-- Link to the Global CSS file -->
-<!-- ============================================ -->
-<!--                 Recent Posts                 -->
-<!-- ============================================ -->
-<span class="blank-space"> </span>
-<section id="blog-1347">
-    <div class="cs-container">
-        <div class="cs-content">
-            <span class="cs-topper">Our Stuff</span>
-            <h2 class="cs-title">Directly from our recent posts and activites</h2>
-            <p class="cs-text">
-                We have a series of project works like our social media, podcast, interviews, etc. Make sure to check it out!
-            </p>
-        </div>
-        <ul class="cs-card-group">
-            <li class="cs-item">
-                <a class="cs-link" href="https://open.spotify.com/show/3dFU2nADEfLKA70ePKtEpU" class="cs-social-link"">
-                    <picture class="cs-picture">
-                        <source media="(max-width: 600px)"
-                            srcset="images/Spotify_icon1.png">
-                        <source media="(min-width: 601px)"
-                            srcset="images/Spotify_icon1.png">
-                        <img decoding="async"
-                            src="images/Spotify_icon1.png"
-                            alt="agency" width="413" height="374" aria-hidden="true">
-                    </picture>
-                    <div class="cs-item-text">
-                        <h3 class="cs-h3">
-                            Listen to our SAS spotify episodes!
-                            <picture class="cs-icon-wrapper">
-                                <img class="cs-icon" decoding="async"
-                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
-                                        alt="arrow" width="413" height="374" aria-hidden="true">
-                            </picture>
-                        </h3>
-                        <div class="cs-info">
-                            <span class="cs-date">
-                                <!--Nothing --->
-                            </span>
-                            <span class="cs-category">
-                                Spotify
-                            </span>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li class="cs-item">
-                <a class="cs-link" href="https://www.instagram.com/studentacademicsupport?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                    <picture class="cs-picture">
-                        <source media="(max-width: 600px)"
-                            srcset="images/Insta_icon2.png">
-                        <source media="(min-width: 601px)"
-                            srcset="images/Insta_icon2.png">
-                        <img decoding="async"
-                            src="images/Insta_icon2.png"
-                            alt="agency" width="413" height="374" aria-hidden="true">
-                    </picture>
-                    <div class="cs-item-text">
-                        <h3 class="cs-h3">
-                           Check out our social media posts!
-                            <picture class="cs-icon-wrapper">
-                                <img class="cs-icon" decoding="async"
-                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
-                                        alt="arrow" width="413" height="374" aria-hidden="true">
-                            </picture>
-                        </h3>
-                         <div class="cs-info">
-                            <span class="cs-date">
-                                <!--Nothing --->
-                            </span>
-                            <span class="cs-category">
-                                Instagram
-                            </span>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li class="cs-item">
-                <a class="cs-link" href="https://drive.google.com/drive/folders/1wc_sRDflYAxi9Ny-Y2BO5OAEQSAqC86E?usp=sharing">
-                    <picture class="cs-picture">
-                        <source media="(max-width: 600px)"
-                            srcset="images/Interview_icon1.jpg">
-                        <source media="(min-width: 601px)"
-                            srcset="images/Interview_icon1.jpg">
-                        <img decoding="async"
-                            src="images/Interview_icon1.jpg"
-                            alt="agency" width="413" height="374" aria-hidden="true">
-                    </picture>
-                    <div class="cs-item-text">
-                        <h3 class="cs-h3">
-                            Watch our interviews with teachers, students, etc.
-                            <picture class="cs-icon-wrapper">
-                                <img class="cs-icon" decoding="async"
-                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
-                                        alt="arrow" width="413" height="374" aria-hidden="true">
-                            </picture>
-                        </h3>
-                        <div class="cs-info">
-                            <span class="cs-date">
-                                <!--Nothing --->
-                            </span>
-                            <span class="cs-category">
-                                Youtube
-                            </span>
-                        </div>
-                    </div>
-                </a>
-            </li>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Series</title>
+<style>
+  /* Add your CSS styles here */
+</style>
+</head>
+<body>
+
+<section>
+  <div class="video-section container">
+    <div class="series-info-wrapper container">
+    </div>
+    <div class="series-categories-wrapper container">
+      <div class="series-categories-content">
+        <ul class="series-categories-list">
+          <li class="video-cat active" data-category="all-videos">All Videos</li>
+          <li class="video-cat" data-category="students">Students</li>
+          <li class="video-cat" data-category="teachers">Teachers</li>
         </ul>
-    </div>
-    <div class="cs-bubbles" aria-hidden="true"></div>
-</section>
-  <!-- ============================================ -->
-<!--                   Gallery Content                    -->
-<!-- ============================================ -->
-        <!-- Gallery Content -->
-<span class="blank-space"> </span>
-<section id="gallery-1446">
-    <div class="cs-container">
-        <div class="cs-content">
-            <div class="cs-flex">
-                <span class="cs-topper">Gallery</span>
-                <h2 class="cs-title">Our Recent Survey Results</h2>
+      </div>
+      <div class="series-videos-carousel">
+        <div class="single-video-wrapper" data-category="all-videos students" data-youtube-id="4NXQKvZMMTA?si=wqwa7fJaWKkTbGXR">
+          <div class="single-video-content">
+            <div class="single-video-item">
+              <img src="https://img.youtube.com/vi/4NXQKvZMMTA/hqdefault.jpg">
             </div>
+            <div class="single-video-title">
+              SAS Student Interview 1
+            </div>
+          </div>
         </div>
-        <!--Gallery-->
-        <div class="cs-gallery">
-            <!-- Picture 1 -->
-            <img src="images/Untitled drawing.png" alt="Gallery" width="305" height="400" data-full="images/Untitled drawing.png">
-            <!-- Picture 2 -->
-            <img src="images/Untitled drawing (1).png" alt="Gallery" width="305" height="400" data-full="images/Untitled drawing (1).png">
-            <!-- Picture 3 -->
-            <img src="images/Untitled drawing (2).png" alt="Gallery" width="305" height="400" data-full="images/Untitled drawing (2).png">
-            <!-- Picture 4 -->
-            <img src="images/Untitled drawing (3).png" alt="Gallery" width="305" height="400" data-full="images/Untitled drawing (3).png">
-            <!-- Picture 5 -->
-            <img src="images/Untitled drawing (4).png" alt="Gallery" width="305" height="400" data-full="images/Untitled drawing (4).png">
-            <!-- Picture 6 -->
-            <img src="images/Untitled drawing (6).png" alt="Gallery" width="305" height="400" data-full="images/Untitled drawing (6).png">
-            <!-- Picture 7 -->
-            <img src="images/Untitled drawing (5).png" alt="Gallery" width="305" height = "400" data-full="images/Untitled drawing (5).png">
-            <!-- Picture 8 -->
-            <img src="images/no_image.jpg" alt="Gallery" width="305" height="400" data-full="images/no_image.jpg">
+        <div class="single-video-wrapper" data-category="all-videos students" data-youtube-id="HdcUt2n6CzQ?si=04iQoB6MbpIBVRtH">
+          <div class="single-video-content">
+            <div class="single-video-item">
+              <img src="https://img.youtube.com/vi/HdcUt2n6CzQ/hqdefault.jpg">
+            </div>
+            <div class="single-video-title">
+              SAS Student Interview 2
+            </div>
+          </div>
         </div>
+        <div class="single-video-wrapper" data-category="all-videos students" data-youtube-id="nJzvvafDNQg?si=jGOUFOL5dpY7vLHe">
+          <div class="single-video-content">
+            <div class="single-video-item">
+              <img src="https://img.youtube.com/vi/nJzvvafDNQg/hqdefault.jpg">
+            </div>
+            <div class="single-video-title">
+              SAS Student Interview 3
+            </div>
+          </div>
+        </div>
+        <div class="single-video-wrapper" data-category="all-videos teachers" data-youtube-id="uzWYeq5XpKU?si=p9IIzr7iGvE7Ykv_">
+          <div class="single-video-content">
+            <div class="single-video-item">
+              <img src="https://img.youtube.com/vi/uzWYeq5XpKU/hqdefault.jpg">
+            </div>
+            <div class="single-video-title">
+              SAS Teacher Interview 2
+            </div>
+          </div>
+        </div>
+        <div class="single-video-wrapper" data-category="all-videos teachers" data-youtube-id="kTFwJIpQKiU?si=JRe67cFTsXcolBSc">
+          <div class="single-video-content">
+            <div class="single-video-item">
+              <img src="https://img.youtube.com/vi/kTFwJIpQKiU/hqdefault.jpg">
+            </div>
+            <div class="single-video-title">
+              SAS Teacher Interview 3
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="episode-wrapper">
+      <div class="episode-item">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4NXQKvZMMTA?si=V1CRXNCdp-rFgcWi" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
 </section>
-    <!-- Image overlay for inspection -->
-<div class="overlay">
-    <img id="overlayImage" src="" alt="Overlay Image">
-</div>
-<script src="script.js"></script>	
+
 </body>
 </html>
