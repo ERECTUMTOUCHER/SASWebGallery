@@ -20,11 +20,11 @@ document.addEventListener('DOMContentLoaded', function() {
 window.onload = function() {
     // Array of video IDs and descriptions
     var videos = [
-        { id: "VIDEO_ID_1", description: "Description for Video 1" },
-        { id: "VIDEO_ID_2", description: "Description for Video 2" },
-        { id: "VIDEO_ID_3", description: "Description for Video 3" },
-        { id: "VIDEO_ID_4", description: "Description for Video 4" },
-        { id: "VIDEO_ID_5", description: "Description for Video 5" },
+        { id: "4NXQKvZMMTA?si=wqwa7fJaWKkTbGXR", description: "SAS Student Interview 1" },
+        { id: "HdcUt2n6CzQ?si=04iQoB6MbpIBVRtH", description: "SAS Student Interview 2" },
+        { id: "nJzvvafDNQg?si=jGOUFOL5dpY7vLHe", description: "SAS Student Interview 3" },
+        { id: "uzWYeq5XpKU?si=p9IIzr7iGvE7Ykv_", description: "SAS Teacher Interview 2" },
+        { id: "kTFwJIpQKiU?si=JRe67cFTsXcolBSc", description: "SAS Teacher Interview 3" },
         { id: "VIDEO_ID_6", description: "Description for Video 6" }
     ];
 
