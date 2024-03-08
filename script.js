@@ -23,9 +23,10 @@ window.onload = function() {
         { id: "4NXQKvZMMTA?si=wqwa7fJaWKkTbGXR", description: "SAS Student Interview 1" },
         { id: "HdcUt2n6CzQ?si=04iQoB6MbpIBVRtH", description: "SAS Student Interview 2" },
         { id: "nJzvvafDNQg?si=jGOUFOL5dpY7vLHe", description: "SAS Student Interview 3" },
+        { id: "pAheY3mEdlI?si=Ck6uGGvicJZo-mDx", description: "SAS Teacher Interview 1 Part 1" },
+        { id: "RAXgSdzUjrE?si=rB7vFh3JkcsyMJgR", description: "SAS Teacher Interview 1 Part 2"},
         { id: "uzWYeq5XpKU?si=p9IIzr7iGvE7Ykv_", description: "SAS Teacher Interview 2" },
         { id: "kTFwJIpQKiU?si=JRe67cFTsXcolBSc", description: "SAS Teacher Interview 3" },
-        { id: "VIDEO_ID_6", description: "Description for Video 6" }
     ];
 
     // Function to create video elements
