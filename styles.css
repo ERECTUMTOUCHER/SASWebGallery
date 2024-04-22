@@ -334,12 +334,4 @@ h1 {
 .video iframe {
     width: 100%;
 }
-#overlay img {
-  width: 700px;
-  position: fixed;
-  border-radius: 5px;
-  margin: 0;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
