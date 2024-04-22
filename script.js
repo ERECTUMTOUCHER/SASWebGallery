@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     overlay.addEventListener('click', function() {
-        this.style.display = 'none';
+        this.style.display = 'block';
     });
 });
 
