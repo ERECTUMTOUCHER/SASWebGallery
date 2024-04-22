@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     overlay.addEventListener('click', function() {
         this.style.display = 'block';
-        $overlay.show();
     });
 });
 
