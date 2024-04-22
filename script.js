@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image.addEventListener('click', function() {
             var fullImagePath = this.getAttribute('data-full');
             overlayImage.src = fullImagePath;
-            overlay.style.display = 'block';
+            overlay.style.display = 'none';
         });
     });
 
